@@ -149,7 +149,7 @@
             Console.WriteLine("Max:" + _emp);
 
             _emp = empList.Sum(emp => emp.Id);
-            Console.WriteLine("Sum:" + _emp);
+            Console.WriteLine("Sum:" + _emp); 
 
             var _empAvg = empList.Average(emp => emp.Id);
             Console.WriteLine("Average:" + _empAvg);
